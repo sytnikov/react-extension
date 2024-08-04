@@ -1,3 +1,3 @@
-chrome.runtime.sendMessage("From content script!", (response) => {
+chrome.runtime.sendMessage('From content script!', (response) => {
   console.log('👀 ', response)
 })
