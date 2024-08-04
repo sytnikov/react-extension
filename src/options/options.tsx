@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './popup.css'
+import './options.css';
 
 const test = <img src="icon.png" />;
 
@@ -10,4 +10,3 @@ document.body.appendChild(root);
 
 const reactRoot = ReactDOM.createRoot(root);
 reactRoot.render(test);
-
